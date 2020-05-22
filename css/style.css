@@ -453,9 +453,64 @@ body{
 /*Intro styles start*/
 
 .intro{
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/hero.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
 }
+.intro_title{
+    max-width: 619px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 22px;
+}
+.intro_subtitle{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 546px;
+    margin-bottom: 59px;
+}
+.search_form_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search_form_field{
+    width: 297px;
+    background: transparent url(../img/svg/oval.svg) no-repeat left 6px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+.search_form_field::placeholder{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+.search_form_submit{
+    padding: 15px 49px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background: #1B7DFF;
+    border:0;
+}
+.search_form_submit:hover, .search_form_submit:focus, .search_form_submit:active{
+    background: #102746;
+
+}
+
 
 /*Intro styles end*/
